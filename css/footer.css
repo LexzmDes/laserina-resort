@@ -1,0 +1,60 @@
+.footer-section {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background: linear-gradient(to top, #1188f8f5, #74d4f1c7);
+    display: flex;
+}
+
+.footer li {
+    list-style: none;
+    padding-bottom: 8px;
+}
+
+.footer li a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer2 li {
+    list-style: none;
+    padding-bottom: 16px;
+}
+
+.footer3 li a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer3 li {
+    list-style: none;
+    padding-bottom: 16px;
+}
+
+.footer3 li a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer4 li {
+    list-style: none;
+    padding-bottom: 8px;
+}
+
+.footer4 li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.copywrite {
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    width: 100%;
+    border-top: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    background: #1188f8f5;
+}

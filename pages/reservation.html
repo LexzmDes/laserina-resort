@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reservation.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="hero-container">
+            <div class="form-container">
+                <form action="index.html">
+                    <h1 class="title">
+                        La <img class="s" src="../img/s-logo.png" alt="S">erina Resort
+                    </h1><br><br>
+                    <div class="complete-name">
+                        <div class="first-name-container"><label for="first-name" class="first-label">
+                                <h3>First Name<span style="color: red;">*</span></h3>
+                            </label>
+                            <div class="first-name">
+                                <input type="text" placeholder="Alexis">
+                            </div>
+                        </div>
+                        <div class="second-name-container"><label for="second-name" class="second-label">
+                                <h3>Last Name<span style="color: red;">*</span></h3>
+                            </label>
+                            <div class="second-name">
+                                <input type="text" placeholder="Mendoza">
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="address-container">
+                        <label for="adress" class="second-label">
+                            <h3>Complete Address <span style="color: rgb(71, 69, 69);">(Optional)</span></h3>
+                        </label>
+                        <div class="complete-adress">
+                            <input type="text" placeholder="Adress">
+                        </div>
+                    </div><br>
+                    <div class="contact-info">
+                        <div class="mobile-container"><label for="mobile" class="third-label">
+                                <h3>Mobile No.<span style="color: red;">*</span></h3>
+                            </label>
+                            <div class="mobile">
+                                <input type="text" placeholder="09XX XXX XXXX">
+                            </div>
+                        </div>
+                        <div class="email-container"><label for="email" class="fourth-label">
+                                <h3>Email<span style="color: red;">*</span></h3>
+                            </label>
+                            <div class="email">
+                                <input type="text" placeholder="juandelacruz@gmail.com">
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="mop-pax">
+                        <div class="mop-container">
+                            <label for="mop" class="fifth-label">
+                                <h3>Mode of payment<span style="color: red;">*</span></h3>
+                            </label>
+                            <div class="mop">
+                                <input type="text" placeholder="(eg. Gcash)">
+                            </div>
+                        </div>
+                        <div class="pax-container"><label for="pax" class="sixth-label">
+                                <h3>How many pax<span style="color: red;">*</span></h3>
+                            </label>
+                            <div class="pax">
+                                <input type="text" placeholder="8 pax">
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="last-container">
+                        <div class="date-container">
+                            <label for="date" class="seventh-label">
+                                <h3>Date<span style="color: red;">*</span></h3>
+                            </label>
+                            <div class="date">
+                                <input type="date" id="date">
+                            </div>
+                        </div>
+                        <div class="proof-container">
+                            <label for="proof">
+                                <h3>Proof of payment<span style="color: red;">*</span></h3>
+                            </label>
+                            <div class="proof">
+                                <input type="file" id="paymentProof" name="paymentProof">
+                            </div>
+                        </div>
+                    </div><br><br><br>
+                    <button class="submit" align="center" onclick="uploadImage()">Upload</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="reservation.js"></script>
+</body>
+
+</html>
